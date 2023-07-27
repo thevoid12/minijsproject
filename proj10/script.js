@@ -14,7 +14,7 @@ async function generateJoke() //since fetch is async we need to write awaite(awa
     }
    const resp=await fetch('https://icanhazdadjoke.com',config) //will return a promise so await
     
-   const data=await res.json() //will return a promise
+   const data=await resp.json() //will return a promise
    jokeEl.innerHTML=data.joke;
 }
 
