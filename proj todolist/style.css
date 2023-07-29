@@ -1,0 +1,17 @@
+body{
+    flex-direction: column;
+    text-align: center;
+    
+}
+.tasks{
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    border-color: black;
+    margin:50px;
+}
+
+.tasks.active{
+    text-decoration: line-through;
+}
